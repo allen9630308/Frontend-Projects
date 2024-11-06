@@ -1,2 +1,2 @@
 # Frontend-Projects
-Simple frontend practices
+Simple Frontend Practices
