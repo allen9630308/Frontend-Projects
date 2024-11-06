@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="todo.css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="todo.js"></script>
+    <center>
+        <h1>Today's Quests</h1>
+        <div id="input-panel">
+            <input type="text" id="box" placeholder="Enter your mission...">
+            <select id="priority" class="normal-select" onchange="importance()">
+                <option value="normal">Normal</option>
+                <option value="important">Important</option>
+                <option value="urgent">Urgent</option>
+            </select>
+            <button class="plus" onclick="add()">+</button>
+        </div>
+        <div class="container">
+            <ul id="list">
+            </ul>
+        </div>
+        <button class="reminder" onclick="remind()">Remind Me</button>
+    </center>
+</body>
+
+</html>

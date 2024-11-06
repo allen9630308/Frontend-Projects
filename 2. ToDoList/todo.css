@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#input-panel {
+    display: flex;
+    justify-content: center;
+}
+
+#input-panel>input {
+    width: 60%;
+    padding: 10px 8px;
+    border-style: solid;
+    border-width: 5px;
+    //border: 5px;
+    outline: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: border-color 0.5s;
+}
+
+.important-input {
+    //background-color: orange;
+    border: 5px;
+    border-color: orange;
+}
+
+.urgent-input {
+    //background-color: red;
+    border: 5px;
+    border-color: red;
+}
+
+#priority {
+    //background-color: #ADADAD;
+    box-sizing: content-box;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+.important-select {
+    background-color: orange;
+}
+
+.urgent-select {
+    background-color: red;
+    color: #F0F0F0;
+}
+
+.normal-select {
+    background-color: #ADADAD;
+}
+
+.plus {
+    border: 0;
+    width: 40px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
+    background-color: gray;
+    color: white;
+    box-sizing: content-box;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+li {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    width: 75%;
+}
+
+.normal {
+    background-color: blue;
+    color: white;
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.6rem;
+}
+
+.important {
+    background-color: orange;
+    color: white;
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.6rem;
+}
+
+.urgent {
+    background-color: red;
+    color: white;
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.6rem;
+}
+
+.xxx {
+    border-radius: 0 5px 5px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 36px;
+    border: 0;
+    background-color: green;
+    color: white;
+}
+
+.reminder {
+    font-size: 1.4rem;
+    border-radius: 5px 5px 5px 5px;
+    background-color: gray;
+    color: white;
+}
+
+.finished {
+    margin-left: 50px;
+    font-size: 1rem;
+    opacity: 0;
+    color: #00BB00;
+    font-weight: bold;
+}
+
+.switch {
+    border: 0;
+    background-color: white;
+}
