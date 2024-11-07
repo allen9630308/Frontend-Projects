@@ -1,5 +1,6 @@
 function add() {
     var input = document.querySelector('#box');
+    var inputValue = input.value;
     if (inputValue.trim() === "")
         return;
     var list = document.querySelector('#list');
@@ -24,7 +25,6 @@ function add() {
     li.append(optiondiv);
     li.append(check);
     li.append(x);
-    var inputValue = input.value;
     var priority = prior.value;
     //console.log(li);
     //console.log(list);
