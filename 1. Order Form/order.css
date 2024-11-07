@@ -1,0 +1,61 @@
+body {
+    height: 300px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+div {
+    margin-top: 15px;
+}
+
+#name {
+    width: 170px;
+}
+
+#num {
+    width: 165px;
+}
+
+button {
+    padding: .5rem 1rem;
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: purple;
+    background-color: gray;
+}
+
+.ordertitle {
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.orderlist {
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.space {
+    width: 100%;
+}
+
+hr {
+    width: 40%
+}
