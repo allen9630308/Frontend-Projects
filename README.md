@@ -12,3 +12,8 @@ https://allen9630308.github.io/Frontend-Projects/1.%20Order%20Form/
 A gadget helps you deals with your daily challenges.
 <br>
 https://allen9630308.github.io/Frontend-Projects/2.%20ToDoList/
+
+## 3. Drink Menu
+Editable easy menu built in Vite + Vue
+<br>
+https://allen9630308.github.io/Frontend-Projects/3.%20Drink%20Menu/
